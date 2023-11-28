@@ -1,0 +1,11 @@
+body.brown-theme {
+  color: brown;
+  background-color: #f5deb3;
+}
+
+body.light-green-theme {
+  color: lightgreen;
+  background-color: #90ee90;
+}
+
+/* Other theme classes */

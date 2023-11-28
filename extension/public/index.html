@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ALX Intranet Theme Selector</title>
+  <!-- link to styles -->
+  <link rel="stylesheet" href="./popup-styles.css" />
+  <link rel="stylesheet" href="./theme.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster:400|Raleway:300,400,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="container" id="popup" style="width: 18rem;">
+    <div class="card">
+      <div class="card-body">
+        <div class="card-head">
+          <h5 class="card-title text-center mt-2 mb-4"><b>MULTI-THEME SELECTOR</b></h5>
+        </div>
+        <div class="card-content">
+          <h1 class="card-title text-center"><i class="fa fas fa-magic mb-8" id="theme-icon"></i></h1>
+          <p class="text-center" id="theme-message">Customize your Intranet</p>
+          <div class="row align-items-center mb-3 switch">
+            <div class="text-center">
+              <div class="form-check form-switch d-inline-block">
+                <input class="form-check-input switch-icon" type="checkbox" role="switch" id="theme-switch">
+              </div>
+
+              <!-- Color Selector -->
+              <div class="color-selector" id="codeSnippet" style="display: none;">
+                <h4>Choose a Theme:</h4>
+                <div class="color-option brown" data-theme="brown-theme"></div>
+                <div class="color-option light-green" data-theme="light-green-theme"></div>
+                <div class="color-option midnight-blue" data-theme="midnight-blue-theme"></div>
+
+                <div class="color-option black" data-theme="black-theme"></div>
+                <div class="color-option teal" data-theme="teal-theme"></div>
+                <div class="color-option dark-blue" data-theme="dark-blue-theme"></div>
+                <div class="color-option purple" data-theme="purple-theme"></div>
+                <div class="color-option pink" data-theme="pink-theme"></div>
+                <div class="color-option light-blue" data-theme="light-blue-theme"></div>
+                <div class="color-option yellow" data-theme="yellow-theme"></div>
+                <div class="color-option white" data-theme="white-theme"></div>
+                <div class="color-option beige" data-theme="beige-theme"></div>
+                <div id="color-name"></div>
+                <!-- Add more color options as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-foot">
+          <p class="text-center copy-text">
+            Multitone-magic &copy; 2023 <span class="small">v1.0.0</span>
+          </p>
+
+          <p class="text-center">
+            <a href="https://github.com/wellingtonmwadali/ALX_MultiTone-Magic.git" id="contribute-link"
+            target="_blank"
+              class="text-decoration-none contribute-link-light-mode contribute">
+              Contribute
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
