@@ -1,6 +1,6 @@
+##Multicolor Chrome Extension
 
-Multicolor Chrome Extension
-Overview
+##Overview
 Multicolor is a lightweight and user-friendly Chrome extension designed to enhance your browsing experience by allowing you to customize the background color of websites. With just a few clicks, you can personalize the look of your favorite web pages, adding a touch of style to your online environment.
 
 Features
